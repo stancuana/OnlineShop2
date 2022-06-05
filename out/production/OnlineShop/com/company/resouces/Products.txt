@@ -1,0 +1,100 @@
+1,Humfrey,Trachyphonus vaillantii,United States,9/3/2021,1
+2,Helsa,Zalophus californicus,Peru,5/29/2022,2
+3,Ingrid,Hippotragus equinus,China,7/8/2021,3
+4,Geri,Trichoglossus chlorolepidotus,Russia,5/25/2022,4
+5,Harrison,Grus rubicundus,China,5/4/2022,5
+6,Thayne,Felis caracal,Belgium,10/13/2021,6
+7,Ermanno,Macaca mulatta,Spain,3/30/2022,7
+8,Floria,Gyps fulvus,Lebanon,12/30/2021,8
+9,Hyacinth,Lycaon pictus,Czech Republic,6/4/2022,9
+10,Samuele,Tiliqua scincoides,United States,12/31/2021,10
+11,Chlo,Ara chloroptera,Japan,2/12/2022,11
+12,Agnesse,Eubalaena australis,Russia,7/15/2021,12
+13,Abeu,Canis aureus,Azerbaijan,7/20/2021,13
+14,Bobette,Laniarius ferrugineus,Indonesia,2/20/2022,14
+15,Lisetta,Toxostoma curvirostre,Finland,12/31/2021,15
+16,Gerrie,Nectarinia chalybea,Poland,7/6/2021,16
+17,Rita,Mirounga leonina,Syria,4/26/2022,17
+18,Van,Plocepasser mahali,Indonesia,4/24/2022,18
+19,Drake,Ciconia episcopus,Thailand,9/13/2021,19
+20,Garek,Spilogale gracilis,Philippines,1/2/2022,20
+21,Clarisse,Gorilla gorilla,Czech Republic,7/1/2021,21
+22,Valle,Manouria emys,Jamaica,10/26/2021,22
+23,Ninnetta,Vulpes chama,Ukraine,3/28/2022,23
+24,Aloysia,Alcelaphus buselaphus cokii,China,10/9/2021,24
+25,Jeanna,Echimys chrysurus,Argentina,9/28/2021,25
+26,Tabbatha,Fregata magnificans,Nigeria,3/23/2022,26
+27,Kermit,Sylvilagus floridanus,Canada,8/24/2021,27
+28,Hollis,Dusicyon thous,Indonesia,10/2/2021,28
+29,Casar,Castor fiber,Peru,4/15/2022,29
+30,Amory,Paradoxurus hermaphroditus,China,10/27/2021,30
+31,Rossy,Odocoilenaus virginianus,Mexico,3/2/2022,31
+32,Genevra,Acanthaster planci,China,12/31/2021,32
+33,Lemuel,Centrocercus urophasianus,Philippines,8/16/2021,33
+34,Gusty,Tiliqua scincoides,Poland,8/11/2021,34
+35,Torre,Ratufa indica,Poland,7/20/2021,35
+36,Deni,Anastomus oscitans,Sweden,6/2/2022,36
+37,Jay,Ara chloroptera,Sweden,2/21/2022,37
+38,Ogden,Dicrostonyx groenlandicus,Poland,5/5/2022,38
+39,Jed,Equus burchelli,Argentina,7/31/2021,39
+40,Salim,Anthropoides paradisea,Poland,1/23/2022,40
+41,Korey,Merops sp.,China,5/15/2022,41
+42,Dulcia,Cereopsis novaehollandiae,Czech Republic,2/1/2022,42
+43,Coriss,Stercorarius longicausus,France,1/15/2022,43
+44,Renata,Chordeiles minor,France,5/16/2022,44
+45,Pammy,Gazella granti,Poland,4/3/2022,45
+46,Kennie,Trichosurus vulpecula,Indonesia,3/7/2022,46
+47,Niles,Bos mutus,China,12/9/2021,47
+48,Carlie,Cereopsis novaehollandiae,Georgia,10/24/2021,48
+49,Leonerd,Colaptes campestroides,Portugal,8/26/2021,49
+50,Sula,Eremophila alpestris,China,9/8/2021,50
+51,Pauli,Otocyon megalotis,Indonesia,8/12/2021,51
+52,Johnathon,Corallus hortulanus cooki,Sweden,12/1/2021,52
+53,Nollie,Heloderma horridum,Sweden,12/19/2021,53
+54,Ekaterina,Pelecanus occidentalis,Peru,6/11/2021,54
+55,Cinderella,Damaliscus lunatus,France,3/19/2022,55
+56,Smith,Rhabdomys pumilio,Russia,7/18/2021,56
+57,Nikita,Ctenophorus ornatus,China,7/17/2021,57
+58,Conroy,Lamprotornis nitens,China,8/26/2021,58
+59,Layne,Hystrix cristata,Portugal,4/2/2022,59
+60,Hermione,Phascogale calura,Philippines,7/20/2021,60
+61,Bronson,Macropus eugenii,Spain,4/11/2022,61
+62,Laurene,Diceros bicornis,Uganda,9/2/2021,62
+63,Gale,unavailable,Vietnam,1/18/2022,63
+64,Tracee,Spizaetus coronatus,China,9/26/2021,64
+65,Lynn,Cercopithecus aethiops,Indonesia,12/23/2021,65
+66,Stefano,Ratufa indica,China,5/6/2022,66
+67,Starr,Dasyurus viverrinus,Venezuela,7/11/2021,67
+68,Dael,Dasyurus viverrinus,Indonesia,1/24/2022,68
+69,Miriam,Tiliqua scincoides,Malaysia,4/23/2022,69
+70,Kimberlee,Sylvilagus floridanus,China,5/1/2022,70
+71,Elane,Vanellus chilensis,Guatemala,9/11/2021,71
+72,Calla,Cygnus atratus,Indonesia,4/22/2022,72
+73,Ernestus,Eumetopias jubatus,Indonesia,1/27/2022,73
+74,Libbey,Genetta genetta,Cameroon,2/27/2022,74
+75,Annabela,Heloderma horridum,Ecuador,11/3/2021,75
+76,Emmalynn,Charadrius tricollaris,China,9/25/2021,76
+77,Romy,Galictis vittata,Sweden,10/11/2021,77
+78,Glynn,Phalaropus lobatus,Paraguay,4/14/2022,78
+79,Terrell,Dasyurus viverrinus,China,7/28/2021,79
+80,Patty,Phalacrocorax carbo,Georgia,12/12/2021,80
+81,Ettie,Oxybelis fulgidus,Russia,4/30/2022,81
+82,Kristel,Chauna torquata,France,10/12/2021,82
+83,Angelina,Prionace glauca,Indonesia,7/17/2021,83
+84,Geordie,Funambulus pennati,Portugal,2/11/2022,84
+85,Humfrey,Felis silvestris lybica,Brazil,12/29/2021,85
+86,Fabiano,Uraeginthus granatina,Syria,8/10/2021,86
+87,Etheline,Pteropus rufus,Portugal,5/31/2022,87
+88,Glen,Dendrocitta vagabunda,Russia,11/4/2021,88
+89,Bree,Pteronura brasiliensis,United Kingdom,11/3/2021,89
+90,Lurette,Snycerus caffer,China,6/5/2021,90
+91,Stafani,Zalophus californicus,Philippines,8/22/2021,91
+92,Juanita,Spizaetus coronatus,Madagascar,6/1/2022,92
+93,Preston,Ciconia ciconia,Azerbaijan,1/21/2022,93
+94,Crissie,Dendrocitta vagabunda,Bangladesh,11/4/2021,94
+95,Broddie,Calyptorhynchus magnificus,Philippines,3/7/2022,95
+96,Alister,Phalacrocorax brasilianus,Philippines,3/7/2022,96
+97,Marisa,Pteropus rufus,Sweden,10/25/2021,97
+98,Ekaterina,Pelecanus occidentalis,Brazil,2/1/2022,98
+99,Abbot,Prionace glauca,Uruguay,10/18/2021,99
+100,Annemarie,Marmota flaviventris,Indonesia,8/6/2021,100
