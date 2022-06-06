@@ -45,4 +45,17 @@ public class ControllCustomer {
             System.out.println(customers.get(i).toString());
         }
     }
+
+    public Customer login(String email, String password){
+
+        for(int i=0; i<customers.size();i++){
+
+            if(customers.get(i).getEmail().equals(email) && customers.get(i).getPassword().equals(password)){
+
+                return customers.get(i);
+
+            }
+        }
+        return null;
+    }
 }

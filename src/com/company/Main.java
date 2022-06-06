@@ -1,8 +1,11 @@
 package com.company;
 
+import com.company.view.ViewLoginUser;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        ViewLoginUser viewLoginUser=new ViewLoginUser();
+        viewLoginUser.play();
     }
 }

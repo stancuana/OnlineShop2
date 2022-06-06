@@ -4,7 +4,7 @@ public class Order {
 
     private int id;
     private int customerId;
-    private int ammount;
+    private String ammount;
     private String orderAddress;
     private String orderDate;
 
@@ -13,13 +13,13 @@ public class Order {
 
         this.id=Integer.parseInt(atribute.split(",")[0]);
         this.customerId=Integer.parseInt(atribute.split(",")[1]);
-        this.ammount=Integer.parseInt(atribute.split(",")[2]);
+        this.ammount=atribute.split(",")[2];
         this.orderAddress=atribute.split(",")[3];
         this.orderDate= atribute.split(",")[4];
 
     }
 
-    public Order(int id, int customerId, int ammount, String orderAddress, String orderDate) {
+    public Order(int id, int customerId, String ammount, String orderAddress, String orderDate) {
 
         this.id=id;
         this.customerId=customerId;
@@ -45,11 +45,11 @@ public class Order {
         this.customerId = customerId;
     }
 
-    public int getAmmount() {
+    public String getAmmount() {
         return ammount;
     }
 
-    public void setAmmount(int ammount) {
+    public void setAmmount(String ammount) {
         this.ammount = ammount;
     }
 

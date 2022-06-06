@@ -9,7 +9,7 @@ class OrderTest {
     @Test
     public void toStringTest(){
 
-        Order order=new Order(1,2,222,"tygfwedfew","22/08/2022");
+        Order order=new Order(1,2,"222","tygfwedfew","22/08/2022");
 
         assertEquals("id: 1\n" +
                 "customerId: 2\n" +
@@ -21,8 +21,8 @@ class OrderTest {
     @Test
     public void equalsTest(){
 
-        Order order1=new Order(1,2,222,"tygfwedfew","22/08/2022");
-        Order order2=new Order(2,2,222,"tygfwedfew","22/08/2022");
+        Order order1=new Order(1,2,"222","tygfwedfew","22/08/2022");
+        Order order2=new Order(2,2,"4244","tygfwedfew","22/08/2022");
 
         assertEquals(false,order1.equals(order2));
 

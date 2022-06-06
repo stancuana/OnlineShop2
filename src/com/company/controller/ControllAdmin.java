@@ -1,6 +1,7 @@
 package com.company.controller;
 
 import com.company.model.Admin;
+import com.company.model.Customer;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -44,6 +45,19 @@ public class ControllAdmin {
 
             System.out.println(admins.get(i).toString());
         }
+    }
+
+    public Admin login(String email, String password){
+
+        for(int i=0; i<admins.size();i++){
+
+            if(admins.get(i).getEmail().equals(email) && admins.get(i).getPassword().equals(password)){
+
+                return admins.get(i);
+
+            }
+        }
+        return null;
     }
 
 

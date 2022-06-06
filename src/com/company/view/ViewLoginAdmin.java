@@ -1,29 +1,32 @@
 package com.company.view;
 
 import com.company.controller.ControllAdmin;
-import com.company.controller.ControllCustomer;
 import com.company.controller.ControllOrder;
 import com.company.controller.ControllProduct;
 
 import java.util.Scanner;
 
-public class ViewUser {
+public class ViewLoginAdmin {
 
     private Scanner scanner;
     private ControllOrder controllOrder;
     private ControllProduct controllProduct;
+    private ControllAdmin controllAdmin;
 
-    public ViewUser(){
+
+    public ViewLoginAdmin(){
 
         scanner=new Scanner(System.in);
         controllOrder=new ControllOrder();
         controllProduct=new ControllProduct();
+        controllAdmin=new ControllAdmin();
+
     }
 
     public void maniu(){
 
-        System.out.println("Daca sunteti client apasati tasta 1");
-        System.out.println("Daca sunteti admin apasati tasta 2");
+        System.out.println("Apasati tasta 1 pentru a va loga");
+
 
     }
 
@@ -39,13 +42,25 @@ public class ViewUser {
 
             switch (alegere){
 
+                case 1:loginAdmin();
+                    break;
+                case 2:
+
 
             }
         }
     }
 
-    public void alegereCilentSauAdmin(){
+    public void loginAdmin(){
 
-        
+        System.out.println("Introduceti adresa de email: ");
+        String email=scanner.nextLine();
+
+        System.out.println("Introduceti parola: ");
+        String password=scanner.nextLine();
+
+        controllAdmin.login(email,password);
+        System.out.println("V-ati logat cu succes!"+"\n");
+
     }
 }
