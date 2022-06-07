@@ -62,4 +62,9 @@ public class ViewLoginCustomer {
         System.out.println("V-ati logat cu succes!"+"\n");
 
     }
+
+    public void inregistrare(){
+
+
+    }
 }

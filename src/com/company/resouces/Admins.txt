@@ -1,3 +1,1 @@
-1,anamaria@gmail.com,ndfjshf,Stancu Ana-Maria,Str. Lunga nr.3,074556545,manager,1000,str.Frunzei nr.4,20
-2,gerogefrincu@fgmail.com,vbsdbcc,Frincu George,Str. Principala nr.10,07710302007,social_media manager,3000,str.Frunzei nr.4,5
-3,anamaria@gmail.com,ndfjshf,Ioana Adreea,Str. Lunga nr.3,074556545,manager,1000,str.Frunzei nr.4,20
+3,anamaria@gmail.com,ndfjshf,Surdu Andrei,Str. Vasile Aron nr.3,074556545,manager,1000,str.Frunzei nr.4,20
