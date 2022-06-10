@@ -8,8 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Admin admin=new Admin(4,"anamaria@gmail.com","ndfjshf","Surdu Andrei","Str. Vasile Aron nr.3","074556545","manager",1000,"str.Frunzei nr.4",20);
         ControllAdmin controllAdmin=new ControllAdmin();
-        Admin admin=new Admin("3,anamaria@gmail.com,ndfjshf,Surdu Andrei,Str. Vasile Aron nr.3,074556545,manager,1000,str.Frunzei nr.4,20");
+        int nrInitialLista=controllAdmin.nrElemLista();
         controllAdmin.addAdmin(admin);
         controllAdmin.save();
     }

@@ -3,7 +3,6 @@ package com.company.controller;
 import com.company.model.Admin;
 import com.company.model.Customer;
 import com.company.model.Order;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
@@ -91,7 +90,7 @@ public class ControllAdmin {
 
         try{
 
-            File file=new File("C:\\mycode\\JavaBasics\\OOP\\mostenirea\\OnlineShop\\src\\com\\company\\resouces\\Admins.txt");
+            File file=new File("c:\\mycode\\JavaBasics\\OOP\\mostenirea\\OnlineShop\\src\\com\\company\\resouces\\Admins.txt");
 
             FileWriter writer=new FileWriter(file);
 
@@ -107,23 +106,17 @@ public class ControllAdmin {
     }
 
     public int nextAvailableId(){
-
-
         if(admins.size()>0){
             return admins.get(admins.size()-1).getId()+1;
         }
-
         return 0;
     }
 
     public Admin login(String email, String password){
 
         for(int i=0; i<admins.size();i++){
-
             if(admins.get(i).getEmail().equals(email) && admins.get(i).getPassword().equals(password)){
-
                 return admins.get(i);
-
             }
         }
         return null;
@@ -133,6 +126,5 @@ public class ControllAdmin {
 
         return admins.size();
     }
-
 
 }

@@ -49,4 +49,11 @@ class ControllCustomerTest {
         assertEquals(nrInitialLista-1,controllCustomer.nrElemLista());
     }
 
+    @Test
+    public void nextAvailableId(){
+
+        ControllCustomer controllCustomer=new ControllCustomer();
+        assertEquals(controllCustomer.nrElemLista()+1,controllCustomer.nextAvailableId());
+    }
+
 }

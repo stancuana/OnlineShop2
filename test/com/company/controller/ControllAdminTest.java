@@ -19,7 +19,7 @@ class ControllAdminTest {
     public void nrElemLista(){
 
         ControllAdmin controllAdmin=new ControllAdmin();
-        assertEquals(3,controllAdmin.nrElemLista());
+        assertEquals(controllAdmin.nextAvailableId()-1,controllAdmin.nrElemLista());
     }
 
     @Test
@@ -50,13 +50,11 @@ class ControllAdminTest {
     }
 
     @Test
-    public void saveTest(){
+    public void nextAvailableId(){
 
-        Admin admin=new Admin("4,anamaria@gmail.com,ndfjshf,Surdu Andrei,Str. Vasile Aron nr.3,074556545,manager,1000,str.Frunzei nr.4,20");
         ControllAdmin controllAdmin=new ControllAdmin();
-        int nrInitialLista=controllAdmin.nrElemLista();
-        controllAdmin.save();
-        assertEquals(nrInitialLista+1,controllAdmin.nrElemLista());
-
+        assertEquals(controllAdmin.nrElemLista()+1,controllAdmin.nextAvailableId());
     }
+
+
 }

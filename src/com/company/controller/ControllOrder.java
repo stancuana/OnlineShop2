@@ -41,7 +41,7 @@ public class ControllOrder {
         }
     }
 
-    public void addUser(Order order){
+    public void addOrder(Order order){
 
         this.orders.add(order);
     }
@@ -113,5 +113,11 @@ public class ControllOrder {
         }
 
         return 0;
+    }
+
+    public int nrElemLista(){
+
+       int nrElem=0;
+       return nrElem=orders.size();
     }
 }
